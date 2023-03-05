@@ -1,0 +1,30 @@
+* {
+    font-size: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e49e66
+}
+
+button {
+    background-color: #f5a731;
+    border-radius: 0;
+    border: 4px solid #0112fa;
+}
+ button:hover {
+   background-color: #910efc;
+   color: #ffffff;
+ }
+
+p {
+    font-size: 90px;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 30px;
+    }
+}
